@@ -9,9 +9,25 @@
         android:id="@+id/FirstFragment"
         android:name="com.example.infarmaland2.FirstFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first"/>
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
     <action
         android:id="@+id/action_nav_graph_pop"
         app:popUpTo="@id/nav_graph"
         app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.infarmaland2.SecondFragment"
+        android:label="SecondFragment" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragement"
+            app:destination="@id/thirdFragement" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragement"
+        android:name="com.example.infarmaland2.ThirdFragment"
+        android:label="ThirdFragement" />
 </navigation>
