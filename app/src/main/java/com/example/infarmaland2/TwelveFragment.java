@@ -8,18 +8,17 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.infarmaland2.databinding.FragmentThirdBinding;
 
-public class ThirdFragment extends Fragment{
-    private FragmentThirdBinding binding;
-
+import com.example.infarmaland2.databinding.FragmentTwelveBinding;
+public class TwelveFragment extends Fragment{ private FragmentTwelveBinding binding;
     @Override
+
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentThirdBinding.inflate(inflater, container, false);
+        binding = FragmentTwelveBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -27,13 +26,14 @@ public class ThirdFragment extends Fragment{
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-       binding.button10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(ThirdFragment.this)
-                    .navigate(R.id.action_thirdFragement_to_nineFragment);
-            }
-        });
+//        binding.button12.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                NavHostFragment.findNavController(TwelveFragment.this)
+//                        .navigate(R.id.);
+//            }
+//        });
+
     }
 
     @Override
@@ -43,4 +43,9 @@ public class ThirdFragment extends Fragment{
     }
 
 }
+
+
+
+
+
 

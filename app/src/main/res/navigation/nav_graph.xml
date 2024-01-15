@@ -25,9 +25,92 @@
         <action
             android:id="@+id/action_secondFragment_to_thirdFragement"
             app:destination="@id/thirdFragement" />
+        <action
+            android:id="@+id/action_secondFragment_to_fourFragment"
+            app:destination="@id/fourFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_fiveFragment"
+            app:destination="@id/fiveFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_sixFragment22"
+            app:destination="@id/sixFragment2" />
+        <action
+            android:id="@+id/action_secondFragment_to_sevenFragment"
+            app:destination="@id/sevenFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_eightFragment"
+            app:destination="@id/eightFragment" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragement"
         android:name="com.example.infarmaland2.ThirdFragment"
-        android:label="ThirdFragement" />
+        android:label="ThirdFragement" >
+        <action
+            android:id="@+id/action_thirdFragement_to_nineFragment"
+            app:destination="@id/nineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.example.infarmaland2.FourFragment"
+        android:label="FourFragment" >
+        <action
+            android:id="@+id/action_fourFragment_to_tenFragment"
+            app:destination="@id/tenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiveFragment"
+        android:name="com.example.infarmaland2.FiveFragment"
+        android:label="FiveFragment" >
+        <action
+            android:id="@+id/action_fiveFragment_to_elevenFragment"
+            app:destination="@id/elevenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sixFragment2"
+        android:name="com.example.infarmaland2.SixFragment"
+        android:label="SixFragment" >
+        <action
+            android:id="@+id/action_sixFragment2_to_twelveFragment"
+            app:destination="@id/twelveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sevenFragment"
+        android:name="com.example.infarmaland2.SevenFragment"
+        android:label="SevenFragment" >
+        <action
+            android:id="@+id/action_sevenFragment_to_thirteenFragment"
+            app:destination="@id/thirteenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eightFragment"
+        android:name="com.example.infarmaland2.EightFragment"
+        android:label="EightFragment" >
+        <action
+            android:id="@+id/action_eightFragment_to_fifteenFragment"
+            app:destination="@id/fifteenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nineFragment"
+        android:name="com.example.infarmaland2.NineFragment"
+        android:label="NineFragment" />
+    <fragment
+        android:id="@+id/tenFragment"
+        android:name="com.example.infarmaland2.TenFragment"
+        android:label="TenFragment" />
+    <fragment
+        android:id="@+id/elevenFragment"
+        android:name="com.example.infarmaland2.ElevenFragment"
+        android:label="ElevenFragment" />
+    <fragment
+        android:id="@+id/twelveFragment"
+        android:name="com.example.infarmaland2.TwelveFragment"
+        android:label="TwelveFragment" />
+    <fragment
+        android:id="@+id/thirteenFragment"
+        android:name="com.example.infarmaland2.ThirteenFragment"
+        android:label="ThirteenFragment" />
+    <fragment
+        android:id="@+id/fifteenFragment"
+        android:name="com.example.infarmaland2.FifteenFragment"
+        android:label="FifteenFragment" />
 </navigation>
